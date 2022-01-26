@@ -1,20 +1,19 @@
 h1
 {
-    font-family: "Lucida Console";
     font-size: 36pt;
     color: midnightblue;
 }
 h2
 {
-    font-family: "Lucida Console";
     font-size: 18pt;
     color: midnightblue;
 }
 body
 {
-    font-family: "Lucida Console";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12pt;
     background-color: rgb(233, 255, 112);
+    text-align: center;
 }
 .p1
 {
