@@ -1,0 +1,24 @@
+h1
+{
+    font-size: 64pt;
+    font-style: bold;
+}
+
+h2
+{
+    font-size: 36pt;
+}
+
+p
+{
+    font-size: 18pt;
+}
+
+body
+{
+    text-align: center;
+    background-image: url("gradient.jpg");
+    font-family: 'didot';
+    font-style: oblique;
+    color: mediumslateblue;
+}
