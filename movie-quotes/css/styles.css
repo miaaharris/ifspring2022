@@ -1,0 +1,30 @@
+h1
+{
+    font-family: "Lucida Console";
+    font-size: 36pt;
+    color: midnightblue;
+}
+h2
+{
+    font-family: "Lucida Console";
+    font-size: 18pt;
+    color: midnightblue;
+}
+body
+{
+    font-family: "Lucida Console";
+    font-size: 12pt;
+    background-color: rgb(233, 255, 112);
+}
+.p1
+{
+    color: tomato;
+}
+.p2
+{
+    color: teal;
+}
+.p3
+{
+    color: purple;
+}
