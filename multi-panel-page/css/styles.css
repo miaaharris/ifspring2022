@@ -1,0 +1,143 @@
+body
+{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h1, h2
+{
+    margin: 0;
+}
+h1
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.contents
+{
+    width: 960px;
+    margin: auto;
+    padding: 42px 0;
+}
+header
+{
+    text-align: center;
+    background-image: url("images/space.jpeg");
+    background-size: cover;
+}
+header .contents
+{
+    padding: 152px 0px 186px 0px;
+}
+header h1
+{
+    font-size: 80px;
+    margin-bottom: 0;
+    color: rgb(255, 237, 136);
+}
+header h2
+{
+    font-size: 30px;
+    line-height: 1.1;
+    color: rgb(255, 237, 136);
+}
+#section1
+{
+    background-color: rgb(162, 229, 255);
+}
+#section1 img
+{
+    float: right;
+    border: 1px solid rgb(255, 237, 136);
+    margin: 0px 0px 21px 40px;
+}
+#section1 p
+{
+    font-size: 18px;
+    line-height: 1.385;
+    color: rgb(58, 1, 85);
+}
+#section1 h1
+{
+    color: rgb(58, 1, 85);
+}
+#section1 .contents
+{
+    padding-bottom: 38px;
+}
+#section2
+{
+    background-color: rgb(255, 237, 136);
+}
+#section2 img
+{
+    float: left;
+    margin: 0px 12px 0px 0px;
+}
+#section2 h2
+{
+    font-size: 20px;
+    color: rgb(16, 1, 85);
+}
+#section2 h1
+{
+    color: rgb(16, 1, 85);
+}
+#section2 p
+{
+    margin-top: 6px;
+    font-size: 18px;
+    padding-right: 21px;
+    line-height: 1.4;
+    color: rgb(16, 1, 85);
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px
+}
+.grid li
+{
+    width: 100%;
+    list-style-type: none;
+    padding-bottom: 23px;
+}
+#section2 .contents
+{
+    padding-bottom: 21px;
+    padding-top: 41px;
+}
+#section3
+{
+    background-color: rgb(162, 229, 255);
+}
+#section3 h1
+{
+    color: rgb(58, 1, 85);
+}
+#section3 p
+{
+    font-size: 26px;
+    margin: 0px 125px;
+    text-align: center;
+    line-height: 1.38;
+    color: rgb(58, 1, 85);
+}
+#section3 .contents
+{
+    padding-bottom: 100px;
+}
+footer p
+{
+    font-size: 18px;
+    color: rgb(255, 237, 136);
+}
+footer
+{
+    background-color: rgb(16, 1, 85);
+}
+footer .contents
+{
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
