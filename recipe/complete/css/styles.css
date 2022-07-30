@@ -1,0 +1,137 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(153, 66, 0);
+}
+h1
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 47px;
+    text-transform: uppercase;
+    color: rgb(250, 241, 203);
+    border-bottom: 2px solid rgb(250, 241, 203);
+    padding-bottom: 5px;
+}
+p
+{
+    margin: 0;
+    font-weight: 200;
+    color: rgb(250, 241, 203);
+}
+img
+{
+    width: 300px;
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(250, 241, 203);
+}
+.description
+{
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 105px;
+}
+.servings h4
+{
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    font-style: italic;
+    border: 2px solid rgb(250, 241, 203);
+    padding: 10px;
+    color: rgb(250, 241, 203);
+    margin: 30px 0px 0px 0px;
+    font-weight: 300;
+}
+.ingredients
+{
+    color: rgb(250, 241, 203);
+    font-weight: 200;
+    line-height: 1.4;
+}
+.ingredients li
+{
+    list-style-type: none;
+}
+.ingredients ul
+{
+    padding: 0;
+    margin: 0;
+}
+.instructions
+{
+    color: rgb(250, 241, 203);
+    line-height: 1.4;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+.instructions ul
+{
+    padding: 0;
+    margin: 0;
+}
+.instructions li
+{
+    list-style-type: decimal;
+    margin-left: 17px;
+    padding-left: 5px;
+}
+.contents
+{
+    display: flex;
+}
+.flex
+{
+    flex: 1;
+}
+h2
+{
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(250, 241, 203);
+    padding-bottom: 5px;
+    width: fit-content;
+}
+h3
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 780px)
+{
+    img
+    {
+        margin: auto;
+        width: 90%;
+        float: none;
+        text-align: center;
+    }
+    .description p
+    {
+        padding-top: 28px;
+    }
+    .servings h4
+    {
+        margin-top: 0px;
+    }
+    .description
+    {
+        padding-bottom: 60px;
+    }
+    .contents
+    {
+        display: block;
+    }
+    .flex
+    {
+        flex: none;
+    }
+}
