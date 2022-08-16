@@ -1,0 +1,216 @@
+html
+{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(255, 237, 211);
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+#nav ul
+{
+    list-style: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#nav ul li a
+{
+    display: inline-block;
+    color: rgb(255, 237, 211);
+    background-color: black;
+    padding: .2em 1.5em;
+    margin: 2px;
+    text-decoration: none;
+}
+#nav ul li a:active
+{
+    font-style: italic;
+}
+#nav ul li a:hover
+{
+    font-style: italic;
+}
+#nav ul li a.selected
+{
+    font-style: italic;
+    font-weight: 600;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+.home img
+{
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.home-text
+{
+    float: right;
+    width: 55%;
+}
+.home-text h3
+{
+    margin: 0;
+}
+.continents
+{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+.continents li
+{
+    margin: 30px 0px;
+}
+.continents img
+{
+    width: 80%;
+}
+.continents h3
+{
+    margin-top: 0px;
+}
+.varieties
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.varieties li
+{
+    padding: 10px;
+    border: solid 2px black;
+    margin: 20px;
+}
+.varieties li h3
+{
+    margin: 0px;
+}
+.ingredients img
+{
+    width: 40%;
+    float: right;
+    margin-left: 10px;
+}
+.history img
+{
+    height: 300px;
+}
+img#history1
+{
+    height: 300px;
+    float: left;
+}
+img#history2
+{
+    height: 300px;
+    float: right;
+}
+img#market2
+{
+    height: 600px;
+    float: left;
+}
+img#market3
+{
+    height: 600px;
+    float: right;
+}
+img
+{
+    border: solid 3px black;
+    padding: 10px;
+}
+
+
+@media (max-width: 1230px)
+{
+    .home-text
+    {
+        float: left;
+        width: 100%;
+    }
+    img#history1
+    {
+        height: 300px;
+        float: left;
+    }
+    img#history2
+    {
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+    }
+    img#market2
+    {
+        height: 600px;
+        float: none;
+    }
+    img#market3
+    {
+        height: 600px;
+        float: none;
+    }
+    .varieties
+    {
+    display: inline-block;
+    }
+    .varieties li
+    {
+        padding: 10px;
+        border: solid 2px black;
+        margin: 20px 0px;
+    }
+}
+@media (max-width: 635px)
+{
+    img#market2
+    {
+        height: auto;
+        width: 90%;
+        float: none;
+    }
+    img#market3
+    {
+        height: auto;
+        width: 90%;
+        float: none;
+    }
+    img#history1
+    {
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+    img#history2
+    {
+        height: auto;
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+    .continents
+    {
+        display: inline-block;
+    }
+    .ingredients img
+    {
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+}
